@@ -136,7 +136,7 @@ footer{
     }
     .service-sector .service-wrap{
         flex-direction: column;
-        justify-content: center;
+        align-items: center;
         
     }
     .service-sector .service-wrap .service-items{
@@ -146,9 +146,12 @@ footer{
     .fixed-width{
         width: 100%;
     }
+}
+@media (max-width:720px){
     .header-wrap{
         flex-direction: column;
-        justify-content: flex-start;
+        align-items: flex-start;
+       
     }
     .header-wrap ul{
         flex-direction: column;
